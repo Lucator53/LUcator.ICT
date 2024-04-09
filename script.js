@@ -10,7 +10,7 @@ var map = L.map('map', {
     ],
 });
 
-var osmLayer = L.tileLayer('http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png',{
+/*var osmLayer = L.tileLayer('http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png',{
     maxZoom: 20,
     minZoom: 16.5,
     attribution: "© OpenStreetMap Contributors. Tiles courtesy of Humanitarian OpenStreetMap Team",
@@ -18,7 +18,7 @@ var osmLayer = L.tileLayer('http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png
         [14.2512, 121.4000], // Southwest
         [14.2588, 121.4118]  // Northeast
 ]
-}).addTo(map);
+}).addTo(map);*/
 
 L.control.locate({
     position: 'bottomright',
